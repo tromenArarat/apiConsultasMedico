@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 notas.txt
+postman.txt
 
 ### STS ###
 .apt_generated
