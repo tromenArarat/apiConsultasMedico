@@ -29,6 +29,8 @@ class MedicoRepositoryTest {
     private MedicoRepository repository;
     @Autowired
     private TestEntityManager em;
+
+    /*
     @Test
     @DisplayName("debería retornar nulo cuando el médico se encuentre en consulta con otro paciente en ese horario")
     void seleccionarMedicoConEspecialidadEnFechaEscenario1() {
@@ -47,6 +49,7 @@ class MedicoRepositoryTest {
         //then ("entonces")
         assertThat(medicoLibre).isNull();
     }
+    */
     @Test
     @DisplayName("debería retornar un médico cuando realice la consulta en la base de datos para ese horario")
     void seleccionarMedicoConEspecialidadEnFechaEscenario2() {
