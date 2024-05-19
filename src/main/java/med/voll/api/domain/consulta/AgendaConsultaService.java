@@ -72,7 +72,7 @@ public class AgendaConsultaService {
         return new DatosDetalleConsulta(consulta);
     }
 
-    private void cancelar(DatosCancelamientoConsulta datos){
+    public void cancelar(DatosCancelamientoConsulta datos){
         if(!consultaRepository.existsById(datos.idConsulta())){
             throw new ValidacionDeIntegridad("Id de la consulta no existe");
         }
